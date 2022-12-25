@@ -1,0 +1,113 @@
+body{
+    background-image: url("https://res.cloudinary.com/ds2h7zl7g/image/upload/v1664541678/v915-techi-002_uv0i5k.jpg");
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.container{
+    width: 100%;
+}
+label{
+    color:white;
+}
+
+h1{
+    color:rgb(18, 17, 17) ;
+    text-align:center;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow';
+    text-decoration: underline;
+}
+
+h2{
+    color:rgb(0, 0, 0);
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration:underline;
+}
+
+table{
+    width: 50%;
+    margin:auto;
+    background-color:rgb(48, 88, 152);
+}
+
+.table-list{
+    width:50%;
+    padding: 5px;
+    height: 20px;
+    border-collapse: collapse;
+    background-color: rgb(255, 255, 255);
+}
+
+td, th {
+    border: 1px solid rgb(255, 255, 255);
+    border: double;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even),table.list thead > tr {
+    background-color: rgb(250, 240, 249);
+}
+
+
+input[type="text"],
+input[type="Number"],
+input[type="Email"],
+input[type="Address"]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+.Pop{
+    text-align: center;
+    padding: 10px;
+}
+
+.Submit{
+    background-color: rgb(88, 149, 240);
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    height: 36px;
+    overflow: hidden;
+    padding: 0 32px;
+}
+
+.Submit:hover{
+    background-color: rgb(86, 206, 243);
+    cursor: pointer;
+}
+.Clear{
+    margin-left: 5px;
+    background-color: rgb(155, 124, 255);
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    height: 36px;
+    overflow: hidden;
+    padding: 0 32px;
+}
+
+.Clear:hover{
+    background-color: rgb(80, 197, 255);
+    cursor: pointer;
+}
+
+
+.margin-align{
+    margin-top:10px;
+}
